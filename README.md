@@ -1,6 +1,7 @@
 # pandas_read_csv_encoding_problems
 
 Here are some strategies for dealing with pandas encoding issues, such as:
+"UnicodeDecodeError: 'utf-8' codec can't decode byte..."
 
 
 ### Skip Over Problem Characters
