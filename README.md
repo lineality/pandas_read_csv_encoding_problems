@@ -1,9 +1,18 @@
 # pandas_read_csv_encoding_problems
 
+Here are some strategies for dealing with pandas encoding issues, such as:
 
 
+### Skip Over Problem Characters
+```
+import pandas as pd
 
+name_of_your_file = ""
 
+df = pd.read_csv( name_of_your_file, encoding_errors= 'replace', low_memory=False) 
+```
+
+### Try Them All
 ```
 import pandas as pd
 
